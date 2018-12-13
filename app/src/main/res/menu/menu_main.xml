@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.ittepic.tpdm_u2_practica2_eduardosilva.MainActivity">
+    <item android:id="@+id/adddueno" android:title="Nuevo Dueño" />
+    <item android:id="@+id/editdueno" android:title="Detalles" />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".nuevo_dueno">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Dueño"
+        android:textSize="35dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:id="@+id/iddueño" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:id="@+id/nombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Domicilio"
+        android:id="@+id/domicilio" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Telefono"
+        android:id="@+id/telefono" />
+
+    <Button
+        android:id="@+id/guardarabogado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="guardar"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
